@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://inventory-mgt.vercel.app"],
+    origin: ["http://localhost:3000", "https://inventory-mgt-one.vercel.app"],
     credentials: true,
   })
 );
